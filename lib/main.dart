@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_comit_study_scheduler_app/view/home_page.dart';
+import 'package:flutter_comit_study_scheduler_app/view/login_page.dart';
+import 'package:flutter_comit_study_scheduler_app/view/register_page.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 void main() {
@@ -19,7 +21,9 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: HomePage(),
+        // home: HomePage(),
+        // home: LoginPage(),
+        home: RegisterPage(),
       ),
     );
   }
